@@ -22,7 +22,7 @@ public class Application {
      */
     @Bean
     public RequestMappingHandlerAdapterModify requestMappingHandlerAdapterModify() {
-        return new RequestMappingHandlerAdapterModify();
+        return new RequestMappingHandlerAdapterModify(); //备注
     }
 
     public static void main(String[] args) {
